@@ -22,6 +22,17 @@
 .bg-light{
   background-color: rgba(255, 144, 14, 0.1);
 }
+.primary-btn{
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(255, 144, 14, 1);
+  padding: 20px 25px;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 10px;
+  border: none;
+}
+
+
 /* share style end  */
 
 
@@ -42,3 +53,31 @@
   max-width: 1440px;
   margin: 0 auto;
 }
+.brand{
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.banner-contain{
+  max-width: 850px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 50px;  
+  }
+  .banner{
+    
+  }
+  .banner-title{
+    font-size: 4rem;
+    font-weight: 700;
+  }
+  .banner-images{
+    width: 100%;
+  }
+
+  /* Responsive Start */
+  @media screen and (max-width:576px){
+    .navbar, .nav-links{
+      flex-direction: column;
+    }
+  }
